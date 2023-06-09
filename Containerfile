@@ -3,7 +3,7 @@ FROM docker.io/library/alpine:latest
 RUN apk update
 RUN apk upgrade -U
 
-RUN apk add  -y\
+RUN apk add -y \
   ca-certificates \
   ffmpeg \
   libwebp \
