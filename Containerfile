@@ -1,9 +1,9 @@
 FROM docker.io/library/alpine:latest
 
 RUN apk update
-RUN apk upgrade -U
+RUN apk upgrade
 
-RUN apk add -y \
+RUN apk add  \
   ca-certificates \
   ffmpeg \
   libwebp \
