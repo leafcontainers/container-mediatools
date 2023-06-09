@@ -1,0 +1,6 @@
+version: '3'
+services:
+  mediatools:
+  image: ghcr.io/leafcontainers/container-mediatools:nightly
+  volumes:
+    - /path/to/your/media/:/mnt/media
