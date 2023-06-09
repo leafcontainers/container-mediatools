@@ -12,6 +12,9 @@ podman pull ghcr.io/leafcontainers/container-mediatools:nightly
 
 # compose the container stack
 podman-compose --file ./docker-compose.yaml up -d
+
+# enter the container
+podman enter mediatools
 ```
 #### with docker
 ```sh
@@ -22,4 +25,7 @@ docker pull ghcr.io/leafcontainers/container-mediatools:nightly
 
 # compose the contianer stack
 docker compose --file ./docker-compose.yaml up -d || docker-compose --file ./docker-compose.yaml up -d
+
+# enter the container
+docker enter mediatools
 ```
