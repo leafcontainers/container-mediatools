@@ -7,7 +7,7 @@ RUN apk add  \
   ca-certificates \
   ffmpeg \
   libwebp \
-  libwebp-tool \
+  libwebp-tools \
   imagemagick \
   exiftool
 
